@@ -31,24 +31,22 @@ header nav {
     header nav .logo img {
       object-fit: contain;
       width: 20%; }
-  header nav .navbar-list {
+  header nav .navbar__list {
     grid-column: 2 / 5; }
-    header nav .navbar-list .navbar {
+    header nav .navbar__list .navbar {
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
       flex-wrap: nowrap;
-      font-size: 1rem;
-      /* &__submenu-item {
-                    display: none;
-                } */
-      /* &__submenu:hover .navbar__submenu-item {
-                    display: block;
-                    position: relative;
-                } */ }
-      header nav .navbar-list .navbar__items {
+      font-size: 1rem; }
+      header nav .navbar__list .navbar__items {
         padding: 5px; }
-        header nav .navbar-list .navbar__items:hover {
+        header nav .navbar__list .navbar__items:hover {
           background-color: #A5D7D5;
           border-radius: 10px;
           padding: 5px; }
+      header nav .navbar__list .navbar__submenu-item {
+        display: none; }
+      header nav .navbar__list .navbar__submenu:hover .navbar__submenu-item {
+        display: block;
+        position: relative; }
